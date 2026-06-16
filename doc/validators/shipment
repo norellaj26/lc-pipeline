@@ -1,0 +1,25 @@
+● The idea is that some validations need different levels of strictness depending on the transport mode.
+
+  INCOTERMS_ALL — use when you just need to check: is this a valid incoterm at all?
+  if value not in INCOTERMS_ALL:
+      self._add_error('INC001', ...)  # completely unknown incoterm
+
+  INCOTERMS_SEA_ONLY — use when transport mode is known and it's NOT sea:
+  if transport_mode == 'AIR' and value in INCOTERMS_SEA_ONLY:
+      self._add_error('INC002', ...)  # FOB/CIF make no sense on a plane
+
+  INCOTERMS_ANY_MODE — use when you want to confirm it's a multi-modal term:
+  if transport_mode == 'AIR' and value not in INCOTERMS_ANY_MODE:
+      self._add_error('INC003', ...)  # must use a non-sea term for air
+
+  ---
+  So the logic flows like:
+
+  Is it a valid incoterm?     → check INCOTERMS_ALL
+    ↓ yes
+  Is transport mode sea?
+    → no  → is it a sea-only term? → check INCOTERMS_SEA_ONLY → flag it
+    → yes → any term is fine
+
+  You split them so you can answer two different questions: "valid at all?" vs "valid for this transport mode?". One combined set
+  can't answer both.

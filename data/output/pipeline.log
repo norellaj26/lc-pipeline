@@ -1,0 +1,125 @@
+2026-03-12 21:59:05 - pipeline - INFO - 
+=== LC VALIDATION PIPELINE ===
+
+2026-03-12 21:59:05 - pipeline - INFO - Loaded: 200 transactions
+2026-03-12 21:59:05 - pipeline - INFO - Cleaned: 200 transactions
+2026-03-12 21:59:23 - pipeline - INFO - 
+=== PIPELINE COMPLETE ===
+2026-03-12 21:59:23 - pipeline - INFO - Clean: 72 | Flagged: 128 | Errors: 237
+2026-03-12 21:59:34 - pipeline - INFO - 
+=== LC VALIDATION PIPELINE ===
+
+2026-03-12 21:59:34 - pipeline - INFO - Loaded: 200 transactions
+2026-03-12 21:59:34 - pipeline - INFO - Cleaned: 200 transactions
+2026-03-12 21:59:52 - pipeline - INFO - 
+=== PIPELINE COMPLETE ===
+2026-03-12 21:59:52 - pipeline - INFO - Clean: 72 | Flagged: 128 | Errors: 237
+2026-03-12 22:02:12 - pipeline - INFO - 
+=== LC VALIDATION PIPELINE ===
+
+2026-03-12 22:02:12 - pipeline - INFO - Loaded: 200 transactions
+2026-03-12 22:02:12 - timer - INFO -  ⏱ load_data took  0.00s
+2026-03-12 22:02:13 - pipeline - INFO - Cleaned: 200 transactions
+2026-03-12 22:02:13 - timer - INFO -  ⏱ clean_data took  0.06s
+2026-03-12 22:02:29 - timer - INFO -  ⏱ validate_data took  16.13s
+2026-03-12 22:02:29 - timer - INFO -  ⏱ generate_reports took  0.01s
+2026-03-12 22:02:29 - pipeline - INFO - 
+=== PIPELINE COMPLETE ===
+2026-03-12 22:02:29 - pipeline - INFO - Clean: 72 | Flagged: 128 | Errors: 237
+2026-03-12 22:07:06 - pipeline - INFO - 
+=== LC VALIDATION PIPELINE ===
+
+2026-03-12 22:07:06 - pipeline - INFO - Loaded: 200 transactions
+2026-03-12 22:07:06 - timer - INFO -  ⏱ load_data took  0.00s
+2026-03-12 22:07:06 - pipeline - INFO - Cleaned: 200 transactions
+2026-03-12 22:07:06 - timer - INFO -  ⏱ clean_data took  0.07s
+2026-03-12 22:07:21 - validate_all - INFO -   Validated 50/200 transactions...
+2026-03-12 22:07:22 - validate_all - INFO -   Validated 100/200 transactions...
+2026-03-12 22:07:22 - validate_all - INFO -   Validated 150/200 transactions...
+2026-03-12 22:07:23 - validate_all - INFO -   Validated 200/200 transactions...
+2026-03-12 22:07:23 - timer - INFO -  ⏱ validate_data took  17.36s
+2026-03-12 22:07:23 - timer - INFO -  ⏱ generate_reports took  0.01s
+2026-03-12 22:07:23 - pipeline - INFO - 
+=== PIPELINE COMPLETE ===
+2026-03-12 22:07:23 - pipeline - INFO - Clean: 72 | Flagged: 128 | Errors: 237
+2026-03-12 22:08:30 - pipeline - INFO - 
+=== LC VALIDATION PIPELINE ===
+
+2026-03-12 22:08:30 - pipeline - INFO - Loaded: 200 transactions
+2026-03-12 22:08:30 - timer - INFO -  ⏱ load_data took  0.00s
+2026-03-12 22:08:30 - pipeline - INFO - Cleaned: 200 transactions
+2026-03-12 22:08:30 - timer - INFO -  ⏱ clean_data took  0.07s
+2026-03-12 22:14:51 - pipeline - INFO - 
+=== LC VALIDATION PIPELINE ===
+
+2026-03-12 22:14:51 - pipeline - INFO - Loaded: 200 transactions
+2026-03-12 22:14:51 - timer - INFO -  ⏱ load_data took  0.00s
+2026-03-12 22:14:51 - pipeline - INFO - Cleaned: 200 transactions
+2026-03-12 22:14:51 - timer - INFO -  ⏱ clean_data took  0.07s
+2026-03-12 22:15:06 - validation - INFO -   Validated 50/200 transactions...
+2026-03-12 22:15:07 - validation - INFO -   Validated 100/200 transactions...
+2026-03-12 22:15:07 - validation - INFO -   Validated 150/200 transactions...
+2026-03-12 22:15:08 - validation - INFO -   Validated 200/200 transactions...
+2026-03-12 22:15:08 - timer - INFO -  ⏱ validate_data took  17.45s
+2026-03-12 22:15:08 - report - INFO - Flagged transactions: 128 → /home/alara/projects/lc_pipeline/data/output/flagged_issues.csv
+2026-03-12 22:15:08 - timer - INFO -  ⏱ generate_reports took  0.02s
+2026-03-12 22:15:08 - pipeline - INFO - 
+=== PIPELINE COMPLETE ===
+2026-03-12 22:15:08 - pipeline - INFO - Clean: 72 | Flagged: 128 | Errors: 237
+2026-03-12 22:17:10 - pipeline - INFO - 
+=== LC VALIDATION PIPELINE ===
+
+2026-03-12 22:17:10 - pipeline - INFO - Loaded: 200 transactions
+2026-03-12 22:17:10 - timer - INFO -  ⏱ load_data took  0.00s
+2026-03-12 22:17:10 - pipeline - INFO - Cleaned: 200 transactions
+2026-03-12 22:17:10 - timer - INFO -  ⏱ clean_data took  0.07s
+2026-03-12 22:17:25 - validation - INFO -   Validated 50/200 transactions...
+2026-03-12 22:17:25 - validation - INFO -   Validated 100/200 transactions...
+2026-03-12 22:17:25 - validation - INFO -   Validated 150/200 transactions...
+2026-03-12 22:17:26 - validation - INFO -   Validated 200/200 transactions...
+2026-03-12 22:17:26 - timer - INFO -  ⏱ validate_data took  16.51s
+2026-03-12 22:17:26 - report - INFO - Full report: /home/alara/projects/lc_pipeline/data/output/validation_report.csv
+2026-03-12 22:17:26 - report - INFO - Clean transactions: 72 → /home/alara/projects/lc_pipeline/data/output/valid_transactions.csv
+2026-03-12 22:17:26 - report - INFO - Flagged transactions: 128 → /home/alara/projects/lc_pipeline/data/output/flagged_issues.csv
+2026-03-12 22:17:26 - timer - INFO -  ⏱ generate_reports took  0.01s
+2026-03-12 22:17:26 - pipeline - INFO - 
+=== PIPELINE COMPLETE ===
+2026-03-12 22:17:26 - pipeline - INFO - Clean: 72 | Flagged: 128 | Errors: 237
+2026-03-12 22:41:35 - pipeline - INFO - 
+=== LC VALIDATION PIPELINE ===
+
+2026-03-12 22:41:35 - pipeline - INFO - Loaded: 200 transactions
+2026-03-12 22:41:35 - timer - INFO -  ⏱ load_data took  0.01s
+2026-03-12 22:41:35 - pipeline - INFO - Cleaned: 200 transactions
+2026-03-12 22:41:35 - timer - INFO -  ⏱ clean_data took  0.08s
+2026-03-12 22:41:51 - validation - INFO -   Validated 50/200 transactions...
+2026-03-12 22:41:51 - validation - INFO -   Validated 100/200 transactions...
+2026-03-12 22:41:51 - validation - INFO -   Validated 150/200 transactions...
+2026-03-12 22:41:53 - validation - INFO -   Validated 200/200 transactions...
+2026-03-12 22:41:53 - timer - INFO -  ⏱ validate_data took  17.50s
+2026-03-12 22:41:53 - report - INFO - Full report: /home/alara/projects/lc_pipeline/data/output/validation_report.csv
+2026-03-12 22:41:53 - report - INFO - Clean transactions: 72 → /home/alara/projects/lc_pipeline/data/output/valid_transactions.csv
+2026-03-12 22:41:53 - report - INFO - Flagged transactions: 128 → /home/alara/projects/lc_pipeline/data/output/flagged_issues.csv
+2026-03-12 22:41:53 - timer - INFO -  ⏱ generate_reports took  0.02s
+2026-03-12 22:41:53 - pipeline - INFO - 
+=== PIPELINE COMPLETE ===
+2026-03-12 22:41:53 - pipeline - INFO - Clean: 72 | Flagged: 128 | Errors: 237
+2026-05-03 22:58:41 - pipeline - INFO - 
+=== LC VALIDATION PIPELINE ===
+
+2026-05-03 22:58:41 - pipeline - INFO - Loaded: 200 transactions
+2026-05-03 22:58:41 - timer - INFO -  ⏱ load_data took  0.01s
+2026-05-03 22:58:41 - pipeline - INFO - Cleaned: 200 transactions
+2026-05-03 22:58:41 - timer - INFO -  ⏱ clean_data took  0.04s
+2026-05-03 22:58:56 - validation - INFO -   Validated 50/200 transactions...
+2026-05-03 22:58:56 - validation - INFO -   Validated 100/200 transactions...
+2026-05-03 22:58:56 - validation - INFO -   Validated 150/200 transactions...
+2026-05-03 22:58:57 - validation - INFO -   Validated 200/200 transactions...
+2026-05-03 22:58:57 - timer - INFO -  ⏱ validate_data took  16.16s
+2026-05-03 22:58:57 - report - INFO - Full report: /home/alara/projects/lc_pipeline/data/output/validation_report.csv
+2026-05-03 22:58:57 - report - INFO - Clean transactions: 72 → /home/alara/projects/lc_pipeline/data/output/valid_transactions.csv
+2026-05-03 22:58:57 - report - INFO - Flagged transactions: 128 → /home/alara/projects/lc_pipeline/data/output/flagged_issues.csv
+2026-05-03 22:58:57 - timer - INFO -  ⏱ generate_reports took  0.01s
+2026-05-03 22:58:57 - pipeline - INFO - 
+=== PIPELINE COMPLETE ===
+2026-05-03 22:58:57 - pipeline - INFO - Clean: 72 | Flagged: 128 | Errors: 237
