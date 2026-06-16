@@ -237,6 +237,7 @@ with tab_data:
         st.subheader(f'Validation Report ({len(df)} transactions)')
         st.dataframe(df, use_container_width=True, height=500)
 
+
 # ── TAB 3: About (methodology + footer) ──
 with tab_about:
     st.subheader('About this dashboard')
